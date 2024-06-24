@@ -1,4 +1,4 @@
-Sorted List
+#Sorted List
 
 A React application that allows users to reorder a list of items through drag-and-drop functionality. The list order updates dynamically as items are moved. This project is built using React, Tailwind CSS, and Vite.
 Features
@@ -7,13 +7,13 @@ Features
     Dynamic Updates: The list order updates dynamically as items are rearranged.
     Responsive Design: The layout adjusts gracefully across different screen sizes using Tailwind CSS.
 
-Technologies Used
+#Technologies Used
 
     React: A JavaScript library for building user interfaces.
     Tailwind CSS: A utility-first CSS framework for rapid UI development.
     Vite: A fast build tool and development server for modern web projects.
 
-Installation
+#Installation
 
     Clone the repository:
           git clone https://github.com/yourusername/sorted-list.git
