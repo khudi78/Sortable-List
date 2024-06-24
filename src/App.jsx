@@ -7,7 +7,7 @@ import './index.css';
 const App = () => {
   return (
     <DnDProviderWrapper>
-      <div className="App ml-[550px] mt-[-200px]">
+      <div className="App lg:ml-[550px] lg:mt-[-50px] md:ml-[200px] sm:ml-[70px]  ">
         <header className=" font-serif font-bold text-white p-4 px-24 w-[500px] ">
          <h1 className="text-4xl top ">Sortable List</h1>
         </header>

@@ -20,7 +20,7 @@ const SortableList = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-10">
+    <div className="max-w-md mx-auto mt-10 ">
       {items.map((item, index) => (
         <DraggableItem
           key={index}

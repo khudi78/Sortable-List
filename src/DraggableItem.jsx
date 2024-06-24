@@ -30,9 +30,9 @@ const DraggableItem = ({ item, index, moveItem }) => {
   return (
     <div
       ref={ref}
-      className={`p-4 text-center cursor-pointer mb-2 bg-[#6ec2d5] text-black rounded shadow ${
+      className={`p-4  sm:p-5 md:p-6 lg:p-7 xl:p-8 text-center cursor-pointer mb-2 bg-[#6ec2d5] text-black rounded shadow  max-[450px]:w-[300px]  max-[450px]:ml-[30px] ${
         isDragging ? 'opacity-50' : 'opacity-100'
-      }`}
+      } transition-opacity duration-200`}
       style={{ cursor: 'move' }}
     >
       {item}
